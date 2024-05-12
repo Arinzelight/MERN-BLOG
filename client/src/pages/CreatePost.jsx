@@ -58,7 +58,6 @@ export default function CreatePost() {
       console.log(error);
     }
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -83,7 +82,6 @@ export default function CreatePost() {
       setPublishError("Something went wrong");
     }
   };
-
   return (
     <div className="p-3 max-w-3xl mx-auto min-h-screen">
       <h1 className="text-center text-3xl my-7 font-semibold">Create a post</h1>
@@ -108,8 +106,6 @@ export default function CreatePost() {
             <option value="javascript">JavaScript</option>
             <option value="reactjs">React.js</option>
             <option value="nextjs">Next.js</option>
-            <option value="css">CSS</option>
-            <option value="html">HTML</option>
           </Select>
         </div>
         <div className="flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3">
